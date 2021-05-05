@@ -2,7 +2,7 @@
 const mongoose = require("mongoose")
 
 // assign mongoDb connection string to Uri and declare options settings
-var uri = "mongodb+srv://insignia:tanzilu@cluster0.cetkb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+var uri = "mongodb+srv://<user>:<password>@cluster0.cetkb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 
 const options = {
     useNewUrlParser: true,
